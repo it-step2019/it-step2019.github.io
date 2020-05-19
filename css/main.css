@@ -50,3 +50,24 @@ h3,
   text-shadow: 0 2px 2px rgba(0, 0, 30, 0.6);
   text-align: center;
 }
+
+@media screen and (max-width: 550px) {
+
+  body,
+  * {
+    font-size: 12px;
+  }
+
+  .first h1 {
+    font-size: 2rem;
+
+  }
+
+  .second {
+
+    font-size: 1.8rem;
+    padding: 45px 0;
+
+  }
+
+}
