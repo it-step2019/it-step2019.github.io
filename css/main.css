@@ -14,20 +14,32 @@ h3,
 .h2,
 .h3 {
   font-family: "Arial Black", serif;
-  margin: 60px 0;
+  margin: 20px 0;
+}
+
+p,
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .first {
   /* height: 40vh; */
   text-align: center;
-  padding: 80px 0;
-  overflow: hidden;
+  padding: 10px 0;
+  /* overflow: hidden; */
+}
+
+.first .date1,
+.end .date2 {
+  font-family: "Arial Black", serif;
+  text-align: left;
+  font-size: .8rem;
 }
 
 .first h1 {
-  font-size: 3rem;
-  color: #cf0b0b;
-  text-shadow: 0 2px 2px rgba(0, 0, 30, 0.6);
+  font-size: 1.2rem;
+
 }
 
 .second {
@@ -35,8 +47,19 @@ h3,
   text-align: center;
   font-family: "Arial Black", serif;
   font-size: 2rem;
-  padding: 145px 0;
+  padding: 5px 0;
   overflow: hidden;
+}
+
+.programma .ask {
+  font-size: 3.5rem;
+  text-align: center;
+  color: #cf0b0b;
+  text-shadow: 0 2px 2px rgba(0, 0, 30, 0.6);
+}
+
+#exampleModalCenterTitle {
+  font-size: 1.1rem;
 }
 
 .boximg img {
@@ -51,6 +74,17 @@ h3,
   text-align: center;
 }
 
+.sectionEnd {
+  background-color: rgb(151, 68, 68);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+}
+
 @media screen and (max-width: 550px) {
 
   body,
@@ -59,14 +93,19 @@ h3,
   }
 
   .first h1 {
-    font-size: 2rem;
+    font-size: 1rem;
 
   }
 
   .second {
 
-    font-size: 1.8rem;
-    padding: 45px 0;
+    font-size: 1.2rem;
+    padding: 5px 0;
+
+  }
+
+  .programma .ask {
+    font-size: 2.5rem;
 
   }
 
