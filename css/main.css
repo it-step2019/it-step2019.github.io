@@ -95,6 +95,14 @@ footer {
   text-align: center;
 }
 
+.footerEnd p {
+  font-size: .7em;
+}
+
+.footerEnd i {
+  font-size: 1em;
+}
+
 @media screen and (max-width: 550px) {
 
   body,
